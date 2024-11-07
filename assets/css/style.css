@@ -1,0 +1,315 @@
+body {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    content: "";
+    /* display: table; */
+    clear: both;
+    padding: 0 20px;
+}
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+header ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.float-right {
+    float: right;
+}
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #f00;
+}
+
+.font-l {
+    font-size: 24px !important;
+}
+
+.font-xl {
+    font-size: 36px !important;
+}
+
+.font-xxl {
+    font-size: 48px !important;
+}
+
+.font-xxxl {
+    font-size: 64px !important;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.hr-line {
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 4px
+}
+
+.col-img {
+    margin-bottom: -6px;
+    margin-top: 16px;
+    opacity: 0.8;
+    cursor: pointer;
+    width: 50%;
+}
+
+.col-img:hover {
+    opacity: 1;
+}
+
+.primary-text-color {
+    color: #f00;
+}
+
+.light-text-color {
+    color: #f1f1f1;
+}
+
+.dark-text-color {
+    color: #333;
+}
+
+.primary-color {
+    background-color: #f00;
+}
+
+.dark-color {
+    background-color: #333;
+}
+
+.light-color {
+    background-color: #f1f1f1;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.form-section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.form-label {
+    padding: 10px 0;
+}
+
+.form-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.input-border {
+    border: 1px solid #ccc !important
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+.input-button {
+    border: none;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.d-block {
+    display: block;
+    width: 100%
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border: 1px solid #ccc !important
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.w3-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: none;
+    font-size: 22px;
+}
+
+.w3-ul li {
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 1px solid #ddd
+}
+
+.w3-ul li:last-child {
+    border-bottom: none
+}
