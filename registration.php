@@ -4,7 +4,7 @@
 		// username => root now your db username 
 		// password => empty now your oen password
 		// database name => Your database name
-		$conn = mysqli_connect("group2-dynamic-form.czptxhzjxjrt.us-east-1.rds.amazonaws.com", "admin", "Admin!23456", "group2-dynamic-form");
+		$conn = mysqli_connect("group2-dynamic-form.czptxhzjxjrt.us-east-1.rds.amazonaws.com", "admin", "Admin!23456", "dynamic-webform-db");
 		
 		// Check connection
 		if($conn === false){
